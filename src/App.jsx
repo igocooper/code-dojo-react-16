@@ -5,7 +5,7 @@ import logo from './logo.svg';
 
 import { Tabs, Tab } from './components/Tabs';
 
-export default class App extends Component {
+export default class App extends Component { 
     render() {
         return (
             <div className="app">

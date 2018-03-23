@@ -11,7 +11,10 @@ export default class Tabs extends React.Component {
     //     return this.state.activeTabIndex !== nextState.activeTabIndex;
     // }
 
-    handleTabClick = tabIndex => this.setState(state => state.activeTabIndex === tabIndex ? null : ({ activeTabIndex: tabIndex }));
+    handleTabClick = tabIndex => this.setState(state => state.activeTabIndex === tabIndex ? null : ({ activeTabIndex: tabIndex })); 
+    
+    /* ☝️ you can pass down setState() not a new state but a function which will receive state, check whether it's ☝️
+    changed and then return null or new state. While returning null component won't e rerendered */
 
     render() {
         console.log('render');
