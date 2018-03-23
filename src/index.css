@@ -18,3 +18,21 @@ button {
     outline: none;
     cursor: pointer;
 }
+
+dl {
+    padding: 20px 0 60px;
+    background: #222;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+dd {
+    margin-left: 0;
+}
+
+dt {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px 0 10px;
+    color: #999;
+}
